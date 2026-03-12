@@ -19,4 +19,5 @@
   --button-color: var(--accent-color);
   --button-outline: rgba(255, 0, 112, 0.4);
   --text-color: rgba(241, 178, 206, 1);
+  --rec-display: inline-block;
 }

@@ -25,7 +25,7 @@
 }
 
 .rec {
-  display: inline-block;
+  display: var(--rec-display);
   position: absolute;
   text-transform: uppercase;
   color: var(--accent-color);
@@ -270,20 +270,20 @@
   .header_title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
-
+  
   .main {
     gap: 80px;
     margin: 60px 0px;
     padding: 0px 20px;
   }
 
+  .section-title_what {
+    width: 236px;
+  }
+
   .main_section_gallery {
     display: grid;
     gap: 10px;
-  }
-
-  .section-title_what {
-    width: 236px;
   }
 
   .gallery {
@@ -333,6 +333,10 @@
 
   .main_section {
     grid-template-columns: 314.96px 1fr;
+  }
+
+  .section-title_what {
+    width: 315px;
   }
 
   .content_what {

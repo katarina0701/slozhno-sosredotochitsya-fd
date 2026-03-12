@@ -19,7 +19,7 @@
   --decorated-color:  var(--title-color);
   --button-color:  var(--title-color);
   --text-color:  var(--title-color);
-  --display-rec: none;
+  --rec-display: none;
   }
 
   @media (prefers-color-scheme: light) {
@@ -39,7 +39,3 @@
   
     /* Остальные стили, только при необходимости */
   } 
-
-  .theme-light .rec {
-    display: none;
-  }

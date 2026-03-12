@@ -17,7 +17,8 @@
   --title-color: rgba(53, 52, 48, 1);
   --subtitle-color: var(--title-color);
   --decorated-color:  var(--title-color);
-  --button-color:  rgba(50, 49, 45, 0.4);
+  --button-color:  var(--title-color);
+  --button-outline: rgba(50, 49, 45, 0.4);
   --text-color:  var(--title-color);
   --rec-display: none;
   }

@@ -33,8 +33,8 @@
       --subtitle-color: var(--title-color);
       --decorated-color:  var(--title-color);
       --button-color:  var(--title-color);
-      --text-color:  var(--title-color);
-      --display-rec: none;
+      --button-outline: rgba(50, 49, 45, 0.4);
+      --text-color: var(--title-color);
     }
   
     /* Остальные стили, только при необходимости */

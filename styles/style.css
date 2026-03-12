@@ -282,6 +282,10 @@
     gap: 10px;
   }
 
+  .section-title_what {
+    width: 236px;
+  }
+
   .gallery {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
